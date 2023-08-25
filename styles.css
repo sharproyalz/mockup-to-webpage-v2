@@ -1,0 +1,496 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FFF8F0;
+}
+
+h1 {
+    font-family: League Spartan;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #190D37;
+}
+
+h2 {
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 8px;
+    padding: 0 10px;
+
+}
+
+h3 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #291854;
+}
+
+h4 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 20px 0 8px 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.big-letters {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #331E6A;
+}
+
+.small-letters {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-bottom: 8px;
+    color: #2858FF;
+}
+
+.small-description-letters {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #190D37;
+    margin-bottom: 48px;
+    padding: 0 10px;
+
+}
+
+#hero-section {
+    display: flex;
+    max-width: 1060px;
+    padding: 0 6px;
+    margin: 0 auto;
+}
+
+#hero-info {
+    width: 50%;
+    padding: 30px 20px 0 0;
+}
+
+#contact-info {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+#contact-info img {
+    height: 16px;
+    width: 16px;
+    margin-bottom: -4px;
+}
+
+#hi-im {
+    margin-top: 49px;
+}
+
+#hero-info h1 {
+    margin-top: 10px;
+    margin-bottom: -17px;
+}
+
+#yellow-line {
+    position: absolute;
+    z-index: -1;
+}
+
+#hero-info .big-letters {
+    margin-top: 47px;
+}
+
+#hero-info button {
+    margin-top: 20px;
+    width: 138px;
+    height: 44px;
+    top: 456px;
+    border-radius: 4px;
+    background: #2F2F2F;
+    color: #ffffff;
+    cursor: pointer;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+#hero-info button:hover {
+    background: #ffffff;
+    color: #2F2F2F;
+}
+
+#hero-image {
+    width: 50%;
+}
+
+#hero-image img {
+    height: 520px;
+    width: 100%;
+}
+
+#dev-experience {
+    margin-top: 96px;
+}
+
+.description-box {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#dev-experience-box {
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dev-exp-letters {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+
+}
+
+#red-image {
+    position: absolute;
+    top: 950px;
+    left: 35px;
+    z-index: -1;
+}
+
+#blue-image {
+    position: absolute;
+    z-index: -1;
+    top: 755px;
+    left: 989px;
+}
+
+#frontend-box {
+    width: 33.33%;
+    height: 291px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding: 0 20px;
+    background-color: #FFFFFF;
+    margin-right: 20px;
+}
+
+#backend-box {
+    width: 33.33%;
+    height: 291px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding: 0 20px;
+    background-color: #FFFFFF;
+    margin-right: 20px;
+}
+
+#interface-box {
+    width: 33.33%;
+    height: 291px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding: 0 20px;
+    background-color: #FFFFFF;
+}
+
+#my-project {
+    margin-top: 98px;
+    padding: 0 6px;
+}
+
+#project-more-info {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.projects {
+    display: flex;
+}
+
+.project-descriptions {
+    margin-left: 20px;
+}
+
+.project-images-template {
+    padding: 40px 45px;
+    max-height: 70px;
+    border-radius: 10px;
+
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+
+.template-1 {
+    background-color: #19ACFF;
+    color: #ffffff;
+}
+
+.template-2 {
+    background-color: #FFE819;
+    color: #000000;
+}
+
+.template-3 {
+    background-color: #FF1919;
+    color: #ffffff;
+
+}
+
+.project-letters {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+}
+
+.project-links {
+    color: #6A87A3;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    margin-top: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.right-arrows {
+    width: 8.4px;
+    height: 7px;
+}
+
+.proj-1,
+.proj-2 {
+    margin-bottom: 30px;
+}
+
+.proj-3 {
+    margin-bottom: 125px;
+}
+
+#price-table {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+#price-table-box {
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.price-box {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.price-box:first-child {
+    width: 33.33%;
+}
+
+.price-box+.price-box {
+    width: 33.33%;
+    margin-left: 20px;
+}
+
+.price-box:nth-child(odd) {
+    background-color: #FFFFFF;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+}
+
+.price-box:nth-child(even) {
+    background-color: #FFD748;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+}
+
+.table-title {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #2858FF;
+}
+
+.price-box-2 .table-title {
+    color: #000000;
+}
+
+.price-container {
+    display: flex;
+}
+
+.dollar-price {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000000;
+}
+
+.per-page {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8A8A8A;
+
+    margin-top: 16px;
+    margin-left: 6px;
+}
+
+.price-box-2 .per-page {
+    color: #00000080;
+}
+
+.some-details {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #8B8B8B;
+    width: 250px;
+}
+
+.price-box-2 .some-details {
+    color: #00000080;
+}
+
+.list-of-benefits {
+    margin-top: 16px;
+}
+
+.price-box-2 .list-of-benefits li {
+    color: #000000BF;
+}
+
+.list-of-benefits li {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+    margin-bottom: -4px;
+}
+
+.checkbox-benefits {
+    margin-bottom: -3px;
+    margin-right: 8px;
+}
+
+.list-of-benefits li+li {
+    margin-top: 8px;
+}
+
+.contact-button {
+    margin-top: 16px;
+}
+
+.contact-button button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #000000;
+}
+
+.price-box-2 .contact-button button {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #000000;
+}
+
+.price-box-2 .contact-button button:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #2F2F2F
+}
+
+.contact-button button {
+    width: 100%;
+    height: 44px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+
+    border-radius: 4px;
+    border: 2px solid #2F2F2F;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+#asked-questions {
+    margin-top: 98px;
+    margin-bottom: 96px;
+}
+
+.question-title-containers {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.question-titles {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #55206D;
+}
+
+.question-title-containers+.question-title-containers {
+    margin-top: 16px;
+}
+
+.arrow-up {
+    float: right;
+}
+
+.arrow-1 {
+    rotate: 180deg;
+}
+
+#answered-texts {
+    margin-top: 8px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6A87A3;
+}
+
+#footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+}
+
+#footer-text {
+    padding: 29px 0;
+}
